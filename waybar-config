@@ -1,0 +1,10 @@
+  "custom/owm": {
+    "format": "{}",
+    "format-alt": "{alt}",
+    "format-alt-click": "click-left",
+    "interval": 1800,
+    "return-type": "json",
+    "exec": "exec ~/.config/waybar/scripts/owm/weather-waybar-module.sh 2>/dev/null",
+    "exec-if": "ping openweathermap.org -c1",
+    "signal": 8
+  },
